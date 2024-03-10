@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner{
+  background-image: url('/src/assets/Image\ \(4\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 188px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
